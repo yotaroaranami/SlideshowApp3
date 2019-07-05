@@ -12,6 +12,11 @@
 		3701C57E22CCC53C005573EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3701C57C22CCC53C005573EE /* Main.storyboard */; };
 		3701C58022CCC53E005573EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3701C57F22CCC53E005573EE /* Assets.xcassets */; };
 		3701C58322CCC53E005573EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3701C58122CCC53E005573EE /* LaunchScreen.storyboard */; };
+		3701C58B22CCDDD4005573EE /* dolphin-Illust.png.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3701C58A22CCDDD4005573EE /* dolphin-Illust.png.zip */; };
+		3701C58D22CCDF45005573EE /* dolphin-Illust.png in Resources */ = {isa = PBXBuildFile; fileRef = 3701C58C22CCDF45005573EE /* dolphin-Illust.png */; };
+		3701C58F22CCE101005573EE /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3701C58E22CCE101005573EE /* Unknown.png */; };
+		3701C59122CCE154005573EE /* Unknown-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3701C59022CCE153005573EE /* Unknown-2.jpeg */; };
+		3701C59322CE1BED005573EE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3701C59222CE1BED005573EE /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3701C57F22CCC53E005573EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3701C58222CCC53E005573EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3701C58422CCC53E005573EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3701C58A22CCDDD4005573EE /* dolphin-Illust.png.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "dolphin-Illust.png.zip"; sourceTree = "<group>"; };
+		3701C58C22CCDF45005573EE /* dolphin-Illust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dolphin-Illust.png"; sourceTree = "<group>"; };
+		3701C58E22CCE101005573EE /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		3701C59022CCE153005573EE /* Unknown-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-2.jpeg"; sourceTree = "<group>"; };
+		3701C59222CE1BED005573EE /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		3701C57722CCC53C005573EE /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				3701C58A22CCDDD4005573EE /* dolphin-Illust.png.zip */,
+				3701C58C22CCDF45005573EE /* dolphin-Illust.png */,
+				3701C59022CCE153005573EE /* Unknown-2.jpeg */,
+				3701C58E22CCE101005573EE /* Unknown.png */,
 				3701C57822CCC53C005573EE /* AppDelegate.swift */,
 				3701C57A22CCC53C005573EE /* ViewController.swift */,
 				3701C57C22CCC53C005573EE /* Main.storyboard */,
 				3701C57F22CCC53E005573EE /* Assets.xcassets */,
 				3701C58122CCC53E005573EE /* LaunchScreen.storyboard */,
 				3701C58422CCC53E005573EE /* Info.plist */,
+				3701C59222CE1BED005573EE /* ResultViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -123,8 +138,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3701C58322CCC53E005573EE /* LaunchScreen.storyboard in Resources */,
+				3701C59122CCE154005573EE /* Unknown-2.jpeg in Resources */,
 				3701C58022CCC53E005573EE /* Assets.xcassets in Resources */,
+				3701C58F22CCE101005573EE /* Unknown.png in Resources */,
+				3701C58B22CCDDD4005573EE /* dolphin-Illust.png.zip in Resources */,
 				3701C57E22CCC53C005573EE /* Main.storyboard in Resources */,
+				3701C58D22CCDF45005573EE /* dolphin-Illust.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			files = (
 				3701C57B22CCC53C005573EE /* ViewController.swift in Sources */,
 				3701C57922CCC53C005573EE /* AppDelegate.swift in Sources */,
+				3701C59322CE1BED005573EE /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
