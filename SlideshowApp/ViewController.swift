@@ -57,7 +57,7 @@ class ViewController: UIViewController {
             
         }
         
-    
+        
         
         let name = imageNameArray[dispimageNo]
         
@@ -66,10 +66,11 @@ class ViewController: UIViewController {
         imageView.image = image
         
     }
-        
     
     
-    @IBAction func play(_ sender: UIButton) {
+    @IBOutlet weak var playButton: UIButton!
+    
+    @IBAction func didTapPlayBotton(_ sender: UIButton) {
         
         if self.timer == nil {
             
@@ -101,7 +102,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-    
+        
         
         let image = UIImage(named: "dolphin-Illust.png")
         
@@ -124,14 +125,22 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-       let  resultViewController : ResultViewController = segue.destination as! ResultViewController
+        let  resultViewController : ResultViewController = segue.destination as! ResultViewController
         
         resultViewController.image = imageView.image!
         
+        playButton.isEnabled = false
         
     }
+        
+    
+        
+    
     
     @IBAction func unwind(_ sender: UIButton) {
+        
+        playButton.isEnabled = true
+        
     }
     
     

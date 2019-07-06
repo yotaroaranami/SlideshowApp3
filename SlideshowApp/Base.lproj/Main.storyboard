@@ -29,7 +29,7 @@
                                 <rect key="frame" x="302.5" y="394" width="31" height="30"/>
                                 <state key="normal" title="再生"/>
                                 <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jHl-wu-Dy4"/>
+                                    <action selector="didTapPlayBotton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jHl-wu-Dy4"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IqJ-cI-Wyy">
@@ -78,6 +78,7 @@
                     <connections>
                         <outlet property="backButton" destination="6tv-R6-BKg" id="5lf-O9-chw"/>
                         <outlet property="imageView" destination="IqJ-cI-Wyy" id="hWC-Ry-06d"/>
+                        <outlet property="playButton" destination="lHv-Wt-3xG" id="oGC-QS-roZ"/>
                         <outlet property="startButton" destination="fs2-nl-Eo6" id="l8J-9X-qfz"/>
                     </connections>
                 </viewController>
